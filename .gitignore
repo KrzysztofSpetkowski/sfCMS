@@ -5,15 +5,27 @@
 .settings
 
 /web/bundles/
-/app/bootstrap.php.cache
 /app/cache/*
-/app/config/parameters.yml
 /app/logs/*
 !app/cache/.gitkeep
 !app/logs/.gitkeep
 /build/
-/vendor/
-/bin/
 /composer.phar
 
 *.php
+!/src/Bootcamp/AdminBundle/Entity/Page.php
+!/src/Bootcamp/AdminBundle/Entity/User.php
+!/src/Bootcamp/AdminBundle/Controller/DefaultController.php
+!/src/Bootcamp/AdminBundle/Controller/PageController.php
+!/src/Bootcamp/AdminBundle/Controller/UserController.php
+!/src/Bootcamp/AdminBundle/BootcampAdminBundle.php
+!/app/AppKernel.php
+!/app/AppCache.php
+!/app/SymfonyRequirements.php
+!/app/autoload.php
+!/app/check.php
+!/bin/doctrine.php
+!/src/Bootcamp/AdminBundle/Form/PageFilterType.php
+!/src/Bootcamp/AdminBundle/Form/PageType.php
+!/src/Bootcamp/AdminBundle/Form/UserFilterType.php
+!/src/Bootcamp/AdminBundle/Form/UserType.php
