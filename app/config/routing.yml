@@ -1,0 +1,8 @@
+bootcamp_frontend:
+    resource: "@BootcampFrontendBundle/Resources/config/routing.yml"
+    prefix:   /
+
+bootcamp_admin:
+    resource: "@BootcampAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin
+
