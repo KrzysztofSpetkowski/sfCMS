@@ -19,9 +19,13 @@ class AppKernel extends Kernel
             new Bootcamp\AdminBundle\BootcampAdminBundle(),
             new Bootcamp\FrontendBundle\BootcampFrontendBundle(),
             
-                new FOS\UserBundle\FOSUserBundle(),
+          	
+        	new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+        	new FOS\UserBundle\FOSUserBundle(),
         	new Lexik\Bundle\FormFilterBundle\LexikFormFilterBundle(),
         	new JordiLlonch\Bundle\CrudGeneratorBundle\JordiLlonchCrudGeneratorBundle(),
+        	new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
+
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

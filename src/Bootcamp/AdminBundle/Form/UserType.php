@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\AdminBundle\Form;
+namespace Bootcamp\AdminBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -27,7 +27,7 @@ class UserType extends AbstractType
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'Cms\AdminBundle\Entity\User'
+            'data_class' => 'Bootcamp\AdminBundle\Entity\User'
         ));
     }
 
