@@ -11,13 +11,14 @@ class PageType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
+        	// ->add('user', 'entity')
+        	->add('page')
             ->add('metaTitle')
             ->add('metaKeywords')
             ->add('metaDescription')
             ->add('title')
             ->add('lead')
             ->add('content')
-       
         ;
     }
 
